@@ -2,7 +2,7 @@ AMI Backup code has been refered with a small enhancement from: https://gist.git
 
 AMI Cleanup code has been refered with a small enhancement from: https://gist.github.com/bkozora/d4f1cf0e5cf26acdd377
 
-Automated AMI Backups
+#Automated AMI Backups
 
 •	This script will first search for all ec2 instances having a tag with "Backup” on it and are in "Running" state.
 
@@ -12,7 +12,7 @@ Automated AMI Backups
 
 •	After creating the AMI it creates a "DeleteOn" tag on the AMI indicating when it will be deleted using the Retention value and another Lambda function.
 
-Automated AMI and Snapshot Deletion
+#Automated AMI and Snapshot Deletion
 
 •	This script first searches for all ec2 instances having a tag with "Backup” on it and are in "Running" state.
 
